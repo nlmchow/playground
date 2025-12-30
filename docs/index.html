@@ -1,3 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>HKMA BRDR Search Project</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body>
+<header>
+<h1>Hong Kong MA BRDR Search Project</h1>
+<p>
+An AI-powered search experience over Hong Kong Monetary Authority (HKMA) regulatory documents,
+built to help staff find Basel and banking supervision guidance quickly and accurately.
+</p>
+</header>
+
+<section>
+<h2>Scope and Coverage</h2>
+<ul>
+<li>Corpus size: approximately 1,500 documents</li>
+<li>Source: <a href="https://brdr.hkma.gov.hk/eng/main" target="_blank" rel="noopener">https://brdr.hkma.gov.hk/eng/main</a></li>
+<li>Timeframe: documents available up to July 2025</li>
+<li>Focus areas:
+<ul>
+<li>Basel framework (Basel III, “final reforms”), capital adequacy, and disclosure</li>
+<li>Liquidity requirements (e.g., LCR/NSFR), stress testing, and supervisory policy</li>
+<li>Pillars 1–3 guidance, reporting templates, FAQs, circulars, and related HKMA materials</li>
+</ul>
+</li>
+</ul>
+</section>
+
+<section>
+<h2>What You Can Do</h2>
+<ul>
+<li>Search HKMA regulatory texts in natural language and get targeted results</li>
+<li>Jump to key passages, definitions, and tables across circulars and guidance</li>
+<li>Discover related documents and refine queries quickly</li>
+</ul>
+</section>
+
+<section>
+<h2>Example Questions</h2>
+<ul>
+<li>When Basel III final reform was implemented?</li>
+<li>What are Basel III requirements for Tier 1 banks?</li>
+<li>How does HKMA define Capital Adequacy Ratio (CAR) and disclosure obligations?</li>
+<li>What are the reporting timelines for Pillar 3 disclosures?</li>
+<li>What liquidity metrics does HKMA require and how are they calculated?</li>
+</ul>
+</section>
+
+<section>
+<h2>How It Works</h2>
+<p>
+This site uses the Google Cloud Gen App Builder search widget to index and query the HKMA BRDR corpus.
+Click the “Search here” field to open the assistant, enter your question, and browse the most relevant documents.
+</p>
+<p>
+For authoritative guidance, always refer to the source documents on the HKMA BRDR website.
+</p>
+</section>
+
 <!-- Widget JavaScript bundle -->
 <script src="https://cloud.google.com/ai/gen-app-builder/client?hl=en_US"></script>
 
@@ -9,3 +72,13 @@
 
 <!-- Element that opens the widget on click. It does not have to be an input -->
 <input placeholder="Search here" id="searchWidgetTrigger" />
+  
+<footer>
+<p>
+Last updated: July 2025 snapshot. Source: HKMA BRDR (Hong Kong).
+</p>
+</footer>
+</body>
+</html>
+
+
