@@ -185,12 +185,14 @@ circulars, disclosure templates, and supervisory policies.
 <!-- Widget JavaScript bundle -->
 <script src="https://cloud.google.com/ai/gen-app-builder/client?hl=en_US"></script>
 
-<!-- Search widget element is not visible by default -->
+<!-- Search widget element (opens when the input with id 'searchWidgetTrigger' is focused or clicked) -->
 <gen-search-widget
-  configId="9e5cc1bf-2caa-4f89-b8e5-980b1cbcdd20"
-  triggerId="searchWidgetTrigger">
+configId="9e5cc1bf-2caa-4f89-b8e5-980b1cbcdd20"
+triggerId="searchWidgetTrigger"
+anchorsTarget="_blank"
+alwaysOpened>
 </gen-search-widget>
-
+        
 <!-- Element that opens the widget on click. It does not have to be an input -->
 <input placeholder="Search here" id="searchWidgetTrigger" />
       </div>
@@ -450,7 +452,7 @@ What are HKMA expectations for intragroup exposures and ring‑fencing in resolu
 
     <div class="card card--third">
       <h3>How It Works</h3>
-      <p>Powered by the Google Cloud Gen App Builder search widget. Click the search bar above, enter your question, and browse the most relevant HKMA BRDR documents.</p>
+      <p>Powered by the Google Cloud Vertex AI Search. Click the search bar above, enter your question, and browse the most relevant HKMA BRDR documents.</p>
       <p style="margin-top:8px;">For authoritative guidance, always refer to the source documents on the HKMA BRDR website.</p>
     </div>
 
@@ -476,15 +478,6 @@ What are HKMA expectations for intragroup exposures and ring‑fencing in resolu
 </div>
 </div>
 </footer>
-
-<!-- Widget JavaScript bundle -->
-<script src="https://cloud.google.com/ai/gen-app-builder/client?hl=en_US"></script>
-
-<!-- Search widget element (opens when the input with id 'searchWidgetTrigger' is focused or clicked) -->
-<gen-search-widget
-configId="9e5cc1bf-2caa-4f89-b8e5-980b1cbcdd20"
-triggerId="searchWidgetTrigger">
-</gen-search-widget>
 </body>
 </html>
 
